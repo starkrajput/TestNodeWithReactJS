@@ -4,11 +4,7 @@
   "description": "News management system with MySQL database",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js",
-    "build": "npm run build:client",
-    "build:client": "cd cyberhorizonanim && npm run build && npx copyfiles build ../",
-    "install:all": "npm install && cd cyberhorizonanim && npm install"
+    "start": "node server.js"
   },
   "dependencies": {
     "better-sqlite3": "^8.7.0",
