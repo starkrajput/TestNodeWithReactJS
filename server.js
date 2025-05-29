@@ -6,7 +6,7 @@ const Database = require('better-sqlite3');
 const multer = require('multer');
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 9999;
 
 // Middleware
 app.use(cors());
