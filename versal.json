@@ -12,6 +12,10 @@
       "dest": "server.js"
     
     }
-  ]
-
+  ],
+  "functions": {
+    "server.js": {
+      "externalDependencies": ["better-sqlite3"]
+    }
+  }
 }
